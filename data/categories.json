@@ -1,0 +1,28 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "title": "UNDER CONSTRUCTION",
+      "image": "/categories_1.jpg",
+      "type": "tall"
+    },
+    {
+      "id": 2,
+      "title": "AFFORDABLE PROJECTS",
+      "image": "/categories_2.avif",
+      "type": "top"
+    },
+    {
+      "id": 3,
+      "title": "READY TO MOVE",
+      "image": "/categories_3.webp",
+      "type": "bottom"
+    },
+    {
+      "id": 4,
+      "title": "LAVISH RESIDENCES IN MUMBAI",
+      "image": "/categories_4.webp",
+      "type": "tall"
+    }
+  ]
+}

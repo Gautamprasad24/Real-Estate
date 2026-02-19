@@ -1,0 +1,44 @@
+{
+  "locations": [
+    {
+      "id": 1,
+      "name": "MUMBAI",
+      "image": "/mumbai.webp"
+    },
+    {
+      "id": 2,
+      "name": "NAVI MUMBAI",
+      "image": "/atal_setu.jpg"
+    },
+    {
+      "id": 3,
+      "name": "PUNE",
+      "image": "/pune.jpg"
+    },
+    {
+      "id": 4,
+      "name": "BANGALORE",
+      "image": "/bangalore.jpg"
+    },
+    {
+      "id": 5,
+      "name": "MUMBAI",
+      "image": "/mumbai.webp"
+    },
+    {
+      "id": 6,
+      "name": "NAVI MUMBAI",
+      "image": "/atal_setu.jpg"
+    },
+    {
+      "id": 7,
+      "name": "PUNE",
+      "image": "/pune.jpg"
+    },
+    {
+      "id": 8,
+      "name": "BANGALORE",
+      "image": "/bangalore.jpg"
+    }
+  ]
+}

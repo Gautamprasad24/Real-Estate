@@ -1,0 +1,24 @@
+{
+  "cards": [
+    {
+      "id": 1,
+      "title": "NAVI MUMBAI",
+      "projects": 2
+    },
+    {
+      "id": 2,
+      "title": "THANE",
+      "projects": 2
+    },
+    {
+      "id": 3,
+      "title": "WESTERN MUMBAI",
+      "projects": 1
+    },
+    {
+      "id": 4,
+      "title": "SOUTH MUMBAI",
+      "projects": 10
+    }
+  ]
+}

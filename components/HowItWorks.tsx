@@ -1,0 +1,34 @@
+"use client";
+
+import data from "@/data/process.json";
+import ProcessStep from "./ProcessStep";
+
+export default function HowItWorks() {
+  return (
+    <section className="bg-[#001D4A] py-16">
+
+      {/* TITLE */}
+      <div className="text-center mb-12">
+
+        <h2 className="text-yellow-400 text-xl font-semibold">
+          How it Works
+        </h2>
+
+        <p className="text-white text-lg">
+          Your Hassle-Free Property Buying Process
+        </p>
+
+      </div>
+
+      {/* STEPS */}
+      <div className="max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-5 gap-8">
+
+        {data.steps.map((step) => (
+          <ProcessStep key={step.id} step={step} />
+        ))}
+
+      </div>
+
+    </section>
+  );
+}

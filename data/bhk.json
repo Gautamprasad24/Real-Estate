@@ -1,0 +1,19 @@
+{
+  "bhk": [
+    {
+      "id": 1,
+      "title": "1 BHK",
+      "image": "/12.jpg"
+    },
+    {
+      "id": 2,
+      "title": "2 BHK",
+      "image": "/floor_plan.jpg"
+    },
+    {
+      "id": 3,
+      "title": "3 BHK",
+      "image": "/vidyut_floor.jpg"
+    }
+  ]
+}

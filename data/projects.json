@@ -1,0 +1,64 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "LODHA BORIVALI",
+      "developer": "Lodha Group",
+      "price": "Price On Request",
+      "size": "1,100 to 1,800 Sqft",
+      "bhk": "3,4 BHK",
+      "location": "Borivali, Mumbai",
+      "image": "/building_view.jpg"
+    },
+    {
+      "id": 2,
+      "title": "LODHA BORIVALI",
+      "developer": "Lodha Group",
+      "price": "Price On Request",
+      "size": "1,100 to 1,800 Sqft",
+      "bhk": "3,4 BHK",
+      "location": "Borivali, Mumbai",
+      "image": "/vidyut_night.png"
+    },
+    {
+      "id": 3,
+      "title": "LODHA BORIVALI",
+      "developer": "Lodha Group",
+      "price": "Price On Request",
+      "size": "1,100 to 1,800 Sqft",
+      "bhk": "3,4 BHK",
+      "location": "Borivali, Mumbai",
+      "image": "/building_view.jpg"
+    },
+    {
+      "id": 4,
+      "title": "LODHA BORIVALI",
+      "developer": "Lodha Group",
+      "price": "Price On Request",
+      "size": "1,100 to 1,800 Sqft",
+      "bhk": "3,4 BHK",
+      "location": "Borivali, Mumbai",
+      "image": "/vidyut_night.png"
+    },
+    {
+      "id": 5,
+      "title": "LODHA BORIVALI",
+      "developer": "Lodha Group",
+      "price": "Price On Request",
+      "size": "1,100 to 1,800 Sqft",
+      "bhk": "3,4 BHK",
+      "location": "Borivali, Mumbai",
+      "image": "/building_view.jpg"
+    },
+    {
+      "id": 6,
+      "title": "LODHA BORIVALI",
+      "developer": "Lodha Group",
+      "price": "Price On Request",
+      "size": "1,100 to 1,800 Sqft",
+      "bhk": "3,4 BHK",
+      "location": "Borivali, Mumbai",
+      "image": "/vidyut_night.png"
+    }
+  ]
+}
