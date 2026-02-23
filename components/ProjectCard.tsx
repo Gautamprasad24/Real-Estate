@@ -41,7 +41,7 @@ export default function ProjectCard({ project }: any) {
       </div>
 
       {/* CONTENT */}
-      <div className="bg-[#001D4A] text-white p-5">
+      <div className="bg-[#0B263A] text-[#F26730] p-5">
 
         <h3 className="font-bold text-lg mb-1">
           {project.title}

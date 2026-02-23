@@ -16,7 +16,7 @@ export default function CategoriesSection() {
       {/* TITLE */}
       <div className="text-center mb-12">
 
-        <h2 className="inline-block bg-[#001D4A] text-white px-6 py-2 text-xl md:text-2xl font-semibold">
+        <h2 className="inline-block text-white bg-[#0B263A] px-6 py-2 text-xl md:text-2xl font-semibold">
           BROWSE PROPERTIES BY CATEGORY
         </h2>
 

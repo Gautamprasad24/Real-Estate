@@ -21,15 +21,15 @@ export default function LoanBanner() {
           </div>
 
           {/* RIGHT CONTENT PANEL */}
-          <div className="bg-[#001D4A] text-white p-8 flex flex-col justify-center">
+          <div className="bg-[#F26730] text-white p-8 flex flex-col justify-center">
 
             {/* HEADING */}
             <h2 className="text-2xl md:text-3xl font-bold mb-3">
-              <span className="text-yellow-400">HOME LOANS</span> MADE EASY
+              <span className="text-[#0B263A]">HOME LOANS</span> MADE EASY
             </h2>
 
             {/* HIGHLIGHT STRIP */}
-            <p className="bg-yellow-400 text-black inline-block px-3 py-1 text-sm font-medium mb-6">
+            <p className="bg-[#0B263A] text-white inline-block px-3 py-1 text-sm font-sm mb-6">
               Affordable Home Loans Tailored To Your Needs !
             </p>
 
@@ -57,7 +57,7 @@ export default function LoanBanner() {
             <div className="flex justify-center">
 
               <button
-                className="
+                className="bg-[#0B263A]
                   border border-yellow-400 text-yellow-400
                   px-6 py-2 rounded-full font-semibold
                   hover:bg-yellow-400 hover:text-[#001D4A]

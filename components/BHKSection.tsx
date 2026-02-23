@@ -5,12 +5,12 @@ import BHKCard from "./BHKCard";
 
 export default function BHKSection() {
   return (
-    <section className="bg-[#001D4A] py-16">
+    <section className="bg-[#F26730] py-16">
 
       {/* TITLE */}
       <div className="text-center mb-12">
 
-        <h2 className="inline-block bg-[#001D4A] border border-white text-white px-6 py-2 text-xl md:text-2xl font-semibold">
+        <h2 className="inline-block bg-[#0B263A] border border-white text-white px-6 py-2 text-xl md:text-2xl font-semibold">
           FIND FLATS IN MUMBAI BY BHK
         </h2>
 

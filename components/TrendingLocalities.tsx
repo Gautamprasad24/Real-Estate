@@ -53,7 +53,7 @@ export default function TrendingLocalities() {
 
       {/* TITLE */}
       <div className="text-center mb-10">
-        <h2 className="inline-block bg-[#001D4A] text-white px-6 py-2 text-xl md:text-2xl font-semibold">
+        <h2 className="inline-block text-white bg-[#0B263A] px-6 py-2 text-xl md:text-2xl font-semibold">
           TOP PROJECTS IN TRENDING LOCALITIES
         </h2>
       </div>
@@ -64,7 +64,7 @@ export default function TrendingLocalities() {
         <button
           onClick={() => scroll("left")}
           className="absolute left-2 md:-left-5 top-1/2 -translate-y-1/2 z-10
-          bg-[#D19C3B] hover:bg-yellow-400 text-white
+          bg-[#F26730]/80 hover:bg-[#F26730] text-white
           w-10 h-10 md:w-11 md:h-11 rounded-full shadow"
         >
           <FontAwesomeIcon icon={faChevronLeft} />
@@ -96,7 +96,7 @@ export default function TrendingLocalities() {
         <button
           onClick={() => scroll("right")}
           className="absolute right-2 md:-right-5 top-1/2 -translate-y-1/2 z-10
-          bg-[#D19C3B] hover:bg-yellow-400 text-white
+           bg-[#F26730]/80 hover:bg-[#F26730] text-white
           w-10 h-10 md:w-11 md:h-11 rounded-full shadow"
         >
           <FontAwesomeIcon icon={faChevronRight} />

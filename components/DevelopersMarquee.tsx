@@ -5,11 +5,11 @@ import Image from "next/image";
 
 export default function DevelopersMarquee() {
   return (
-    <section className="bg-[#001D4A] py-16 overflow-hidden">
+    <section className="bg-[#F26730] py-16 overflow-hidden">
 
       {/* TITLE */}
       <div className="text-center mb-10">
-        <h2 className="text-yellow-400 text-xl md:text-2xl font-semibold">
+        <h2 className="text-[#0B263A] text-xl md:text-2xl font-semibold">
           Trusted Developers in Mumbai
         </h2>
       </div>

@@ -5,7 +5,7 @@ import CountUp from "@/components/CountUp";
 
 export default function Stats() {
   return (
-    <section className="bg-[#001D4A] py-16">
+    <section className="bg-[#F26730] py-16">
 
       {/* TOP HR */}
       <div className="max-w-5xl mx-auto mb-8">
@@ -13,7 +13,7 @@ export default function Stats() {
       </div>
 
       {/* STATS BOX */}
-      <div className="max-w-5xl mx-auto bg-[#001D4A] text-white py-10 px-6">
+      <div className="max-w-5xl mx-auto bg-[#F26730] text-white py-10 px-6">
 
         <div className="grid grid-cols-2 md:grid-cols-4 text-center divide-x divide-white/30">
 
@@ -21,7 +21,7 @@ export default function Stats() {
             <div key={i} className="px-4">
 
               {/* NUMBER */}
-              <h3 className="text-yellow-400 text-3xl md:text-4xl font-bold">
+              <h3 className="text-[#0B263A] text-3xl md:text-4xl font-bold">
                 <CountUp value={item.value} />
               </h3>
 

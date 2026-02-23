@@ -30,7 +30,7 @@ export default function Hero() {
           initial={{ opacity: 0, x: 80 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}
-          className="bg-[#001D4A] flex items-center justify-center px-6 py-16"
+          className="bg-[#F26730] flex items-center justify-center px-6 py-16"
         >
           {/* MAIN CARD */}
           <div className="border-2 border-yellow-400 rounded-3xl overflow-hidden max-w-md w-full text-center">
@@ -41,11 +41,11 @@ export default function Hero() {
             </div>
 
             {/* CONTENT */}
-            <div className="bg-[#001D4A] text-white px-8 py-10">
+            <div className="bg-[#0B263A] text-white px-8 py-10">
 
               <h1 className="text-2xl md:text-2xl font-bold leading-snug">
-                <span className="text-yellow-400">WHERE DREAMS</span> MEET <br />
-                THE <span className="text-yellow-400">BEST DEALS</span>
+                <span className="text-[#F26730]">WHERE DREAMS</span> MEET <br />
+                THE <span className="text-[#F26730]">BEST DEALS</span>
               </h1>
 
               {/* BUTTON */}
@@ -63,7 +63,7 @@ export default function Hero() {
       {/* SEARCH BAR */}
       <div className="absolute left-1/2 -bottom-8 transform -translate-x-1/2 w-[90%] md:w-[70%] bg-white shadow-lg rounded-full flex overflow-hidden">
 
-        <div className="bg-[#001D4A] text-white px-6 py-4 font-medium">
+        <div className="bg-[#F26730] text-white px-6 py-4 font-medium">
           Mumbai
         </div>
 

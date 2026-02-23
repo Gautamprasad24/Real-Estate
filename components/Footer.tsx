@@ -6,7 +6,7 @@ import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#001D4A] text-white pt-16 pb-10">
+    <footer className="bg-[#F26730] text-white pt-16 pb-10">
 
       <div className="max-w-7xl mx-auto px-6">
 
@@ -17,7 +17,7 @@ export default function Footer() {
           <div>
 
             <Image
-              src="/keystone.jpg"
+              src="/logo.avif"
               alt="Keystone"
               width={180}
               height={60}

@@ -37,11 +37,11 @@ export default function ProjectsCarousel() {
       {/* TITLE */}
       <div className="text-center mb-16">
 
-        <h2 className="inline-block bg-[#001D4A] text-white px-6 py-2 text-xl md:text-2xl font-semibold">
+        <h2 className="inline-block text-white bg-[#0B263A] px-6 py-2 text-xl md:text-2xl font-semibold">
           TOP SELLING PROJECTS IN MUMBAI
         </h2>
 
-        <p className="text-gray-600 mt-3">
+        <p className="text-[#F26730] mt-3">
           Exclusive deals on Residential Projects
         </p>
 
@@ -56,9 +56,9 @@ export default function ProjectsCarousel() {
           onClick={() => scroll("left")}
           className="
   absolute left-2 md:-left-5 top-1/2 -translate-y-1/2 z-10
-  bg-[#D19C3B] text-white
+  bg-[#F26730]/80 text-white
   w-10 h-10 md:w-11 md:h-11 rounded-full shadow-lg
-  hover:bg-yellow-400 hover:text-black
+  hover:bg-[#F26730] hover:text-black
   transition
 "
 
@@ -97,9 +97,9 @@ export default function ProjectsCarousel() {
           onClick={() => scroll("right")}
           className="
   absolute right-2 md:-right-5 top-1/2 -translate-y-1/2 z-10
-  bg-[#D19C3B] text-white
+  bg-[#F26730]/80 text-white
   w-10 h-10 md:w-11 md:h-11 rounded-full shadow-lg
-  hover:bg-yellow-400 hover:text-black
+  hover:bg-[#F26730] hover:text-black
   transition
 "
 

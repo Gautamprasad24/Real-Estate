@@ -2,9 +2,9 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Navbar() {
-
   const [open, setOpen] = useState(false);
 
   const menu = [
@@ -18,12 +18,18 @@ export default function Navbar() {
   return (
     <>
       {/* TOP NAVBAR */}
-      <nav className="bg-[#001D4A] text-white px-6 py-4 flex justify-between items-center">
+      <nav className="bg-[#F26730] text-white px-6 py-4 flex justify-between items-center">
 
-        {/* LOGO */}
-        <div className="text-yellow-400 font-bold text-xl">
-          KEYSTONE
-        </div>
+        {/* LOGO IMAGE */}
+        <Link href="/">
+          <Image
+            src="/logo.avif"
+            alt="Keystone Logo"
+            width={160}
+            height={50}
+            priority
+          />
+        </Link>
 
         {/* DESKTOP MENU */}
         <ul className="hidden md:flex gap-8 uppercase text-sm">
@@ -39,7 +45,7 @@ export default function Navbar() {
         {/* MOBILE MENU BUTTON */}
         <button
           onClick={() => setOpen(true)}
-          className="md:hidden bg-[#2E3C78] px-5 py-2 uppercase tracking-widest"
+          className="md:hidden bg-[#0B263A] px-5 py-2 uppercase tracking-widest"
         >
           Menu
         </button>

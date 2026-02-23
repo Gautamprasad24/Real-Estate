@@ -8,14 +8,14 @@ export default function LocalityCard({ item }: any) {
     <div className="group min-w-[240px] relative">
 
       {/* TOP TAB */}
-      <div className="bg-[#001D4A] text-white text-center py-3 rounded-t-2xl font-semibold">
+      <div className="bg-[#F26730] text-white text-center py-3 rounded-t-2xl font-semibold">
         {item.title}
       </div>
 
       {/* CARD BODY */}
       <div
         className="
-          bg-[#001D4A] text-white
+          bg-[#F26730] text-white
           h-[260px] rounded-b-3xl p-6
           text-center relative overflow-hidden
           shadow-lg
